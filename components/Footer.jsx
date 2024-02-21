@@ -7,12 +7,12 @@ const Footer = () => {
   const currentYear = new Date().getFullYear()
 
   return (
-    <footer className="bg-gray-200 py-6 mt-24">
+    <footer className="bg-gray-200 py-6">
       <div
         className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4"
       >
         <div className="mb-4 md:mb-0">
-          <Image src={logo} alt="Logo" className="h-8 w-auto" />
+          <Image src={logo} alt="Logo" className="h-8 w-auto " />
         </div>
        
         <div>
