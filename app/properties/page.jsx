@@ -4,7 +4,6 @@ import PropertyCard from '@/components/PropertyCard';
 async function fetchProperties() {
   try {
     const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/properties`)
-    
     if (!res.ok) {
       throw new Error("failed to fetch properties");
     }
@@ -18,6 +17,7 @@ async function fetchProperties() {
 const PropertiesPage = async () => {
 
   const properties = await fetchProperties();
+  console.log(properties);
 
   return (
     <section className="px-4 py-6">
