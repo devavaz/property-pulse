@@ -8,6 +8,7 @@ import InfoBoxes from '@/components/InfoBoxes'
 
 const Home = () => {
 
+
   return (
    <section>
      <Hero  />
