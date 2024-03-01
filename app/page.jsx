@@ -1,21 +1,14 @@
-import Hero from '@/components/Hero'
-import HomeProperties from '@/components/HomeProperties'
-import InfoBoxes from '@/components/InfoBoxes'
-// import connectDB from '@/config/database'
+import Hero from '@/components/Hero';
+import InfoBoxes from '@/components/InfoBoxes';
+import HomeProperties from '@/components/HomeProperties';
 
-
-
-
-const Home = () => {
-
-
+const HomePage = () => {
   return (
-   <section>
-     <Hero  />
-     <InfoBoxes />
-     <HomeProperties />
-   </section>
-  )
-}
-
-export default Home
+    <>
+      <Hero />
+      <InfoBoxes />
+      <HomeProperties />
+    </>
+  );
+};
+export default HomePage;
